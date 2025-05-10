@@ -1,23 +1,6 @@
-const Header = () => {
-  const links = [
-    {
-      name: "Home",
-      href: "/",
-    },
-    {
-      name: "About",
-      href: "/about",
-    },
-    {
-      name: "Services",
-      href: "/services",
-    },
-    {
-      name: "Contact",
-      href: "/contact",
-    },
-  ];
+import Link from "next/link";
 
+const Header = () => {
   return (
     <header
       className="rounded-xl text-white px-10 py-4 max-w-[1400px] fixed z-[1000]  w-full flex items-center justify-between"
@@ -29,9 +12,9 @@ const Header = () => {
         // background: "rgba(255, 255, 255, 0.1)",
       }}
     >
-      <a href="/" className="font-medium font-poppins">
+      <Link href="/" className="font-medium font-poppins">
         Breezy Works
-      </a>
+      </Link>
 
       <svg
         xmlns="http://www.w3.org/2000/svg"
