@@ -57,10 +57,12 @@ export default function OurServices() {
   ];
 
   return (
-    <section className="py-32 items-centr justify-center bg-[#F6F8FF]">
-      <div className="flex flex-col lg:flex-row max-w-[1400px] m-auto gap-4">
+    <section className="py-32 items-center justify-center bg-[#F6F8FF]">
+      <div className="flex flex-col lg:flex-row m-auto gap-4  px-4 lg:px-20">
         <div className="basis-1/2">
-          <h5 className="text-2xl font-urbanist font-semibold">Our Services</h5>
+          <h5 className="text-[5vw] font-urbanist font-semibold">
+            Our Services
+          </h5>
           {/* <h3 className="text-3xl">Our Services</h3>
           <p className="text-xl">
             We craft buetiful, responsive websites that blend aesthetics with

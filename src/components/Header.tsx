@@ -3,7 +3,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header
-      className="rounded-xl text-white px-10 py-4 max-w-[1400px] fixed z-[1000]  w-full flex items-center justify-between"
+      className="rounded-xl text-white px-10 py-4 max-w-[1500px] fixed z-[1000]  w-full flex items-center justify-between"
       style={{
         top: "2%",
         left: "50%",

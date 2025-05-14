@@ -1,7 +1,7 @@
 "use client";
 
-import { Poppins, Urbanist } from "next/font/google";
 import "./globals.css";
+import { Poppins, Urbanist } from "next/font/google";
 import Header from "@/components/Header";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -47,7 +47,7 @@ export default function RootLayout({
         pin: true,
         start: "center center",
         end: "+=300",
-        markers: true,
+        markers: false,
       });
     },
     { scope: main }

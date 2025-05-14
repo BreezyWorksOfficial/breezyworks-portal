@@ -29,7 +29,7 @@ const Card = ({
 
 const FeaturedWorks = () => {
   return (
-    <section className="max-w-[1400px] mx-auto px-4 py-32">
+    <section className="max-w-[1500px] mx-auto px-4 py-32 lg:px-20">
       <div className="flex flex-col gap-32">
         <Card title="AgriCorner" description="Design, Development" index={0} />
         <Card title="AgriCorner" description="Design, Development" index={1} />
