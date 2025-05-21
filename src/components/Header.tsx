@@ -3,7 +3,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header
-      className="rounded-xl text-white px-10 py-4 max-w-[1500px] fixed z-[1000]  w-full flex items-center justify-between"
+      className="rounded-xl text-white px-4 py-4 absolute z-[1000]  w-full flex items-center justify-between md:px-10"
       style={{
         top: "2%",
         left: "50%",
@@ -12,7 +12,13 @@ const Header = () => {
         // background: "rgba(255, 255, 255, 0.1)",
       }}
     >
-      <Link href="/" className="font-medium font-poppins">
+      <Link
+        href="/"
+        style={{
+          fontSize: "clamp(1rem, 1vw, 2.5rem)",
+        }}
+        className="font-medium font-poppins"
+      >
         Breezy Works
       </Link>
 

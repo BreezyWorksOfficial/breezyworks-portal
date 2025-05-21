@@ -1,11 +1,6 @@
 const Hero = () => {
   return (
-    <section
-      className="p-4 overflow-hidden relative flex flex-col items-center justify-center"
-      style={{
-        height: "clamp(100px, 100vh, 1600px)",
-      }}
-    >
+    <section className="p-4 overflow-hidden relative flex flex-col items-center justify-center min-h-[80vh] lg:min-h-[100vh]">
       <video
         src={"/videos/blurry_1.mp4"}
         autoPlay

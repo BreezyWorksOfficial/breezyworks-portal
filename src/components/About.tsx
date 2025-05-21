@@ -39,13 +39,13 @@ const About = () => {
   ); // ensures scoped targeting
 
   return (
-    <section className="py-40 flex justify-center">
+    <section className="py-20 md:py-32 flex justify-center">
       <p
         ref={textRef}
-        className="font-poppins text-center"
+        className="font-poppins md:text-center"
         style={{
           maxWidth: "clamp(800px, 50vw, 1000px)",
-          fontSize: "clamp(1.8rem, 2vw, 3rem)",
+          fontSize: "clamp(1.2rem, 2vw, 3rem)",
           // lineHeight: "clamp(1.2, 1.6, 1.6)",
         }}
       >
